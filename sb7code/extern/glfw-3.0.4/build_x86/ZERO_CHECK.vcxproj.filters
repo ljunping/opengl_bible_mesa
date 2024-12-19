@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Project\opengL\sb7code\extern\glfw-3.0.4\build_x86\CMakeFiles\afccbab9d5cd35384e7adfa72787f3c9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BB9E5800-3B43-33DB-A57A-563BE34939CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

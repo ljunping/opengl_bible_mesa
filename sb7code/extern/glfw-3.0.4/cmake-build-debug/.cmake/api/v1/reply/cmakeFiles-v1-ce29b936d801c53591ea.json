@@ -1,0 +1,200 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindX11.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"path" : "docs/Doxyfile.in"
+		},
+		{
+			"path" : "src/glfw_config.h.in"
+		},
+		{
+			"path" : "src/glfwConfig.cmake.in"
+		},
+		{
+			"path" : "src/glfwConfigVersion.cmake.in"
+		},
+		{
+			"path" : "src/glfw3.pc.in"
+		},
+		{
+			"path" : "src/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug",
+		"source" : "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

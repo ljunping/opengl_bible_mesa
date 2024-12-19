@@ -1,0 +1,5 @@
+﻿  sb7object.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+E:\Project\opengL\sb7code\src\sb7\sb7object.cpp(57,7): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getcwd. See online help for details.
+E:\Project\opengL\sb7code\src\sb7\sb7object.cpp(222,9): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“void *”
+  sb7.vcxproj -> E:\Project\opengL\sb7code\lib\sb7_d.lib

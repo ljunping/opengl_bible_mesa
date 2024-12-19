@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Project\opengL\sb7code\visual studio\CMakeFiles\2dca014a9562383560d7572560a8acb8\release.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Project\opengL\sb7code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Project\opengL\sb7code\visual studio\CMakeFiles\release" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{19A1DA91-5FE3-3750-893C-550E77460CFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

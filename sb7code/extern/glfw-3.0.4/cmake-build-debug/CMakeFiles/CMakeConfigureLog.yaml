@@ -1,0 +1,501 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 5.15.0-124-generic - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CvKDri"
+      binary: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CvKDri"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CvKDri'
+        
+        Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_12a71
+        [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o -c /home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_12a71.dir/'
+         /usr/lib/gcc/aarch64-linux-gnu/11/cc1 -quiet -v -imultiarch aarch64-linux-gnu /home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_12a71.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccGgoXZY.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/aarch64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/aarch64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 52ed857e9cd110e5efaa797811afcfbb
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_12a71.dir/'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o /tmp/ccGgoXZY.s
+        GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/cc  -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib: -v -Wl,-v  -rdynamic CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o -o cmTC_12a71   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-L/opt/homebrew/opt/bison/lib' '-L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib' '-L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib' '-L/opt/homebrew/opt/flex/lib:' '-v' '-rdynamic' '-o' 'cmTC_12a71' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_12a71.'
+         /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfcfAW5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_12a71 /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib: -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfcfAW5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_12a71 /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib: -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-L/opt/homebrew/opt/bison/lib' '-L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib' '-L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib' '-L/opt/homebrew/opt/flex/lib:' '-v' '-rdynamic' '-o' 'cmTC_12a71' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_12a71.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/aarch64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/11/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/aarch64-linux-gnu/11/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CvKDri']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_12a71]
+        ignore line: [[1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o -c /home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_12a71.dir/']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/cc1 -quiet -v -imultiarch aarch64-linux-gnu /home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_12a71.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccGgoXZY.s]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 52ed857e9cd110e5efaa797811afcfbb]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_12a71.dir/']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o /tmp/ccGgoXZY.s]
+        ignore line: [GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/cc  -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib: -v -Wl -v  -rdynamic CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o -o cmTC_12a71   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-L/opt/homebrew/opt/bison/lib' '-L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib' '-L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib' '-L/opt/homebrew/opt/flex/lib:' '-v' '-rdynamic' '-o' 'cmTC_12a71' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_12a71.']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfcfAW5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_12a71 /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib: -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccfcfAW5.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_12a71] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o]
+          arg [-L/opt/homebrew/opt/bison/lib] ==> dir [/opt/homebrew/opt/bison/lib]
+          arg [-L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib] ==> dir [/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib]
+          arg [-L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib] ==> dir [/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib]
+          arg [-L/opt/homebrew/opt/flex/lib:] ==> dir [/opt/homebrew/opt/flex/lib:]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfcfAW5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_12a71 /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib: -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_12a71.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+        collapse library dir [/opt/homebrew/opt/bison/lib] ==> [/opt/homebrew/opt/bison/lib]
+        collapse library dir [/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib] ==> [/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib]
+        collapse library dir [/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib] ==> [/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib]
+        collapse library dir [/opt/homebrew/opt/flex/lib:] ==> [/opt/homebrew/opt/flex/lib:]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11] ==> [/usr/lib/gcc/aarch64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+        implicit dirs: [/opt/homebrew/opt/bison/lib;/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib;/opt/homebrew/opt/flex/lib:;/usr/lib/gcc/aarch64-linux-gnu/11;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:74 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AEUNvD"
+      binary: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AEUNvD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AEUNvD'
+        
+        Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_a38c5
+        [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_a38c5.dir/src.c.o -c /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AEUNvD/src.c
+        [2/2] : && /usr/bin/cc  -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:   -rdynamic CMakeFiles/cmTC_a38c5.dir/src.c.o -o cmTC_a38c5   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindX11.cmake:693 (check_library_exists)"
+      - "CMakeLists.txt:190 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HxRTwK"
+      binary: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HxRTwK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HxRTwK'
+        
+        Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_b88fd
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fdiagnostics-color=always -o CMakeFiles/cmTC_b88fd.dir/CheckFunctionExists.c.o -c /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HxRTwK/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=XOpenDisplay -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:   -rdynamic CMakeFiles/cmTC_b88fd.dir/CheckFunctionExists.c.o -o cmTC_b88fd  /usr/lib/aarch64-linux-gnu/libX11.so  /usr/lib/aarch64-linux-gnu/libXext.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindX11.cmake:708 (check_function_exists)"
+      - "CMakeLists.txt:190 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0B9lfC"
+      binary: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0B9lfC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0B9lfC'
+        
+        Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_31344
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fdiagnostics-color=always -o CMakeFiles/cmTC_31344.dir/CheckFunctionExists.c.o -c /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0B9lfC/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=gethostbyname -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:   -rdynamic CMakeFiles/cmTC_31344.dir/CheckFunctionExists.c.o -o cmTC_31344   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindX11.cmake:722 (check_function_exists)"
+      - "CMakeLists.txt:190 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tQ4WGf"
+      binary: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tQ4WGf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tQ4WGf'
+        
+        Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_1d6fc
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -fdiagnostics-color=always -o CMakeFiles/cmTC_1d6fc.dir/CheckFunctionExists.c.o -c /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tQ4WGf/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=connect -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:   -rdynamic CMakeFiles/cmTC_1d6fc.dir/CheckFunctionExists.c.o -o cmTC_1d6fc   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindX11.cmake:731 (check_function_exists)"
+      - "CMakeLists.txt:190 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YUgkPF"
+      binary: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YUgkPF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YUgkPF'
+        
+        Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_a9d13
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -fdiagnostics-color=always -o CMakeFiles/cmTC_a9d13.dir/CheckFunctionExists.c.o -c /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YUgkPF/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=remove -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:   -rdynamic CMakeFiles/cmTC_a9d13.dir/CheckFunctionExists.c.o -o cmTC_a9d13   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/FindX11.cmake:740 (check_function_exists)"
+      - "CMakeLists.txt:190 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LEh0sp"
+      binary: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LEh0sp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LEh0sp'
+        
+        Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_babb0
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -fdiagnostics-color=always -o CMakeFiles/cmTC_babb0.dir/CheckFunctionExists.c.o -c /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LEh0sp/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=shmat -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:   -rdynamic CMakeFiles/cmTC_babb0.dir/CheckFunctionExists.c.o -o cmTC_babb0   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:276 (check_function_exists)"
+    checks:
+      - "Looking for glXGetProcAddress"
+    directories:
+      source: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AScDpJ"
+      binary: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AScDpJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "_GLFW_HAS_GLXGETPROCADDRESS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AScDpJ'
+        
+        Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_379c5
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress -fdiagnostics-color=always -o CMakeFiles/cmTC_379c5.dir/CheckFunctionExists.c.o -c /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AScDpJ/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=glXGetProcAddress -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:   -rdynamic CMakeFiles/cmTC_379c5.dir/CheckFunctionExists.c.o -o cmTC_379c5  -Wl,-rpath,/usr/local/lib/aarch64-linux-gnu  /usr/local/lib/aarch64-linux-gnu/libGL.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:277 (check_function_exists)"
+    checks:
+      - "Looking for glXGetProcAddressARB"
+    directories:
+      source: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8RmbFQ"
+      binary: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8RmbFQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "_GLFW_HAS_GLXGETPROCADDRESSARB"
+      cached: true
+      stdout: |
+        Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8RmbFQ'
+        
+        Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_99908
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB -fdiagnostics-color=always -o CMakeFiles/cmTC_99908.dir/CheckFunctionExists.c.o -c /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8RmbFQ/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:   -rdynamic CMakeFiles/cmTC_99908.dir/CheckFunctionExists.c.o -o cmTC_99908  -Wl,-rpath,/usr/local/lib/aarch64-linux-gnu  /usr/local/lib/aarch64-linux-gnu/libGL.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:278 (check_function_exists)"
+    checks:
+      - "Looking for glXGetProcAddressEXT"
+    directories:
+      source: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LHFip2"
+      binary: "/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LHFip2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "_GLFW_HAS_GLXGETPROCADDRESSEXT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LHFip2'
+        
+        Run Build Command(s): /home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -v cmTC_c96f1
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT -fdiagnostics-color=always -o CMakeFiles/cmTC_c96f1.dir/CheckFunctionExists.c.o -c /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LHFip2/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:   -rdynamic CMakeFiles/cmTC_c96f1.dir/CheckFunctionExists.c.o -o cmTC_c96f1  -Wl,-rpath,/usr/local/lib/aarch64-linux-gnu  /usr/local/lib/aarch64-linux-gnu/libGL.so && :
+        FAILED: cmTC_c96f1 
+        : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT -L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:-L/opt/homebrew/opt/bison/lib -L/opt/homebrew/opt/flex/lib:   -rdynamic CMakeFiles/cmTC_c96f1.dir/CheckFunctionExists.c.o -o cmTC_c96f1  -Wl,-rpath,/usr/local/lib/aarch64-linux-gnu  /usr/local/lib/aarch64-linux-gnu/libGL.so && :
+        /usr/bin/ld: CMakeFiles/cmTC_c96f1.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `glXGetProcAddressEXT'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

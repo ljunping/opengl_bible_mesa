@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Project\opengL\sb7code\extern\glfw-3.0.4\CMakeFiles\fe82cd91a62d5042bc0c41b20711aed9\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4F600249-2CE9-33B3-8590-ABD45E3C2A6C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

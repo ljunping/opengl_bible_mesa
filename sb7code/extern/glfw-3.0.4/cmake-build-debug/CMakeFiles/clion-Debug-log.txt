@@ -1,0 +1,14 @@
+/home/parallels/Downloads/clion-2024.2.2/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/parallels/Downloads/clion-2024.2.2/bin/ninja/linux/aarch64/ninja -G Ninja -S /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4 -B /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using X11 for window creation
+-- Using GLX for context creation
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/parallels/Downloads/Project/mesa/sb7code/extern/glfw-3.0.4/cmake-build-debug

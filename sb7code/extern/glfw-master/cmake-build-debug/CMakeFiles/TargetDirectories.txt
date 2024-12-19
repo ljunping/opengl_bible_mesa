@@ -1,0 +1,15 @@
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/CMakeFiles/uninstall.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/CMakeFiles/install.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/CMakeFiles/install/strip.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/src/CMakeFiles/glfw.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/src/CMakeFiles/update_mappings.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/src/CMakeFiles/list_install_components.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/src/CMakeFiles/install.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/src/CMakeFiles/install/local.dir
+/Users/lin/Desktop/Project/opengL/mesa/sb7code/extern/glfw-master/cmake-build-debug/src/CMakeFiles/install/strip.dir

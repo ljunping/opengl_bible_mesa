@@ -1,0 +1,10 @@
+^E:\PROJECT\OPENGL\SB7CODE\EXTERN\GLFW-3.0.4\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Project/opengL/sb7code/extern/glfw-3.0.4 -BE:/Project/opengL/sb7code/extern/glfw-3.0.4 --check-stamp-file E:/Project/opengL/sb7code/extern/glfw-3.0.4/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

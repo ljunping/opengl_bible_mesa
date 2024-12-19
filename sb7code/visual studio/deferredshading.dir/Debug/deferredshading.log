@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/Project/opengL/sb7code/CMakeLists.txt
+  deferredshading.cpp
+E:\Project\opengL\sb7code\src\deferredshading\deferredshading.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Project\opengL\sb7code\include\sb7.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../src/deferredshading/deferredshading.cpp”)
+  
+E:\Project\opengL\sb7code\include\vmath.h(1022,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../src/deferredshading/deferredshading.cpp”)
+  
+  deferredshading.vcxproj -> E:\Project\opengL\sb7code\bin\deferredshading_d.exe

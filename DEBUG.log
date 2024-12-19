@@ -1,0 +1,10 @@
+Message: with_mesa_debug@0@,buildtype=@1@ false debugoptimized
+Message: gbm_backends_path/opt/homebrew/lib/dri
+Message: auto_features true
+Message: shared-glapi true
+Message: pre_args -D__STDC_CONSTANT_MACROS:-D__STDC_FORMAT_MACROS:-D__STDC_LIMIT_MACROS:-DPACKAGE_VERSION="24.3.0-devel":-DPACKAGE_BUGREPORT="https://gitlab.freedesktop.org/mesa/mesa/-/issues":-DHAVE_OPENGL=1:-DHAVE_OPENGL_ES_1=1:-DHAVE_OPENGL_ES_2=1
+Message: system_has_kms_drm false
+Message: with_gallium_kmsro=false,gallium_drivers['llvmpipe', 'softpipe']
+Message: with_any_llvmpipe=true,with_gallium_or_lvp=true
+Message: with_gallium=true,system_has_kms_drm=false
+Message: pre_args=['-D__STDC_CONSTANT_MACROS', '-D__STDC_FORMAT_MACROS', '-D__STDC_LIMIT_MACROS', '-DPACKAGE_VERSION="24.3.0-devel"', '-DPACKAGE_BUGREPORT="https://gitlab.freedesktop.org/mesa/mesa/-/issues"', '-DHAVE_OPENGL=1', '-DHAVE_OPENGL_ES_1=1', '-DHAVE_OPENGL_ES_2=1', '-DHAVE_LLVMPIPE', '-DHAVE_SOFTPIPE', '-DHAVE_SWRAST', '-DBUILDING_MESA', '-DVK_ENABLE_BETA_EXTENSIONS', '-DVIDEO_CODEC_VC1DEC=0', '-DVIDEO_CODEC_H264DEC=0', '-DVIDEO_CODEC_H264ENC=0', '-DVIDEO_CODEC_H265DEC=0', '-DVIDEO_CODEC_H265ENC=0', '-DVIDEO_CODEC_AV1DEC=1', '-DVIDEO_CODEC_AV1ENC=1', '-DVIDEO_CODEC_VP9DEC=1', '-DHAVE_X11_PLATFORM', '-DHAVE_MACOS_PLATFORM', '-DHAVE_SURFACELESS_PLATFORM', '-DHAVE_XCB_PLATFORM'],with_dri=true with_gallium_iris=false
